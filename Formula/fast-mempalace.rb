@@ -13,10 +13,8 @@ class FastMempalace < Formula
       url "https://github.com/debpalash/fast-mempalace/releases/download/v0.2.0/fast-mempalace-darwin-aarch64.tar.gz"
       sha256 "4d214909d3b98da24a62f6321b521343c6620ef13925e0e3cb0cda81163ed41d"
     end
-    on_intel do
-      url "https://github.com/debpalash/fast-mempalace/releases/download/v0.2.0/fast-mempalace-darwin-x86_64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-    end
+    # Intel macOS binary pending (GitHub macos-13 runners are deprecated/scarce).
+    # Intel Mac users: use the curl installer in the main repo, or build from source.
   end
 
   on_linux do
