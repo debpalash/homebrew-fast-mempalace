@@ -5,12 +5,12 @@
 class Memxt < Formula
   desc "Local-first long-term memory for AI coding agents"
   homepage "https://github.com/Yupcha/memxt"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Yupcha/memxt/releases/download/v0.2.0/memxt-darwin-aarch64.tar.gz"
+      url "https://github.com/Yupcha/memxt/releases/download/v0.2.1/memxt-darwin-aarch64.tar.gz"
       sha256 "29518d88cf91548c05a40f7ddfdfa7537bc4b4c6e1ec1762d09fae801af48ca4"
     end
     # Intel macOS binary pending (GitHub macos-13 runners are deprecated/scarce).
@@ -19,11 +19,11 @@ class Memxt < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/Yupcha/memxt/releases/download/v0.2.0/memxt-linux-aarch64.tar.gz"
+      url "https://github.com/Yupcha/memxt/releases/download/v0.2.1/memxt-linux-aarch64.tar.gz"
       sha256 "a4b05bbbdbc82c399941ff9eb418b54e01c55d5e47433f1af3416f57cc6cbbc2"
     end
     on_intel do
-      url "https://github.com/Yupcha/memxt/releases/download/v0.2.0/memxt-linux-x86_64.tar.gz"
+      url "https://github.com/Yupcha/memxt/releases/download/v0.2.1/memxt-linux-x86_64.tar.gz"
       sha256 "14b3f42f3938f663584d53b38104baf55a03c971dca459429a4506a2fbdf9743"
     end
   end
